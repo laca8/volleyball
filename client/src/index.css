@@ -1,0 +1,350 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.form {
+  width: 30%;
+  margin: auto;
+}
+.listplayers {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.div-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.div1-team-flex {
+  display: flex;
+  justify-content: center;
+}
+.div2-team-flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.stadium {
+  position: relative;
+}
+
+.positions {
+  position: absolute;
+  top: 57%;
+  left: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.positions .top {
+  margin-bottom: 90px;
+}
+.positions .mb-3 {
+  font-weight: bold;
+  width: 20px;
+  height:20px;
+  font-size: 8px;
+  margin: 0 16px;
+}
+
+.mb-33 {
+  width: 20px;
+  font-size: 8px;
+  margin-top: -10px;
+}
+.positions1 {
+  position: absolute;
+  top: 18%;
+  left: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.positions1 .top1 {
+  margin-bottom: 90px;
+}
+.positions1 .mb-3 {
+  font-weight: bold;
+  width: 20px;
+  height: 20px;
+  font-size: 8px;
+  margin: 0 16px;
+}
+.mb-33 {
+  width: 20px;
+  font-size: 8px;
+  margin-top: -10px;
+}
+.mb1-33 {
+  position: absolute;
+  width: 20px;
+  font-size: 8px;
+  margin-top: -24px;
+}
+.div-tableMatch::-webkit-scrollbar {
+  width: 1px;
+  height: 1px;
+}
+
+@media only screen and (max-width: 1399px) {
+  
+  .positions {
+    position: absolute;
+    top: 57%;
+    left: 31%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .positions .top {
+    margin-bottom: 70px;
+  }
+  .positions .mb-3 {
+    width: 18px;
+    height:18px;
+    font-size: 8px;
+    margin: 0 16px;
+  }
+  
+  .mb-33 {
+    width: 20px;
+    font-size: 8px;
+    margin-top: -10px;
+  }
+  .positions1 {
+    position: absolute;
+    top: 18%;
+    left: 31%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .positions1 .top1 {
+    margin-bottom: 70px;
+  }
+  .positions1 .mb-3 {
+    width: 18px;
+    height: 18px;
+    font-size: 8px;
+    margin: 0 16px;
+  }
+}
+@media only screen and (max-width: 1399px) {
+  .stadium .boxes{
+    position: absolute;
+    margin-top: 70px;
+   
+  }
+}
+
+@media only screen and (min-width: 1399px) {
+  .stadium .boxes{
+    position: absolute;
+    margin-top: 50px;
+   
+  }
+ 
+}
+
+@media only screen and (max-width: 1301px) {
+  .stadium .boxes{
+    position: absolute;
+    margin-top: 35px;
+   
+  }
+  .positions {
+    position: absolute;
+    top: 56%;
+    left: 31%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .positions .top {
+    margin-bottom: 80px;
+  }
+  .positions .mb-3 {
+    width: 18px;
+    height:18px;
+    font-size: 8px;
+    margin: 0 16px;
+  }
+  
+  .mb-33 {
+    width: 20px;
+    font-size: 8px;
+    margin-top: -10px;
+  }
+  .positions1 {
+    position: absolute;
+    top: 17%;
+    left: 31%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .positions1 .top1 {
+    margin-bottom: 78px;
+  }
+  .positions1 .mb-3 {
+    width: 18px;
+    height: 18px;
+    font-size: 8px;
+    margin: 0 16px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .positions {
+    position: absolute;
+    top: 56%;
+    left: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .positions .top {
+    margin-bottom: 70px;
+  }
+  .positions .mb-3 {
+    width: 17px;
+    height:17px;
+    font-size: 8px;
+    margin: 0 16px;
+  }
+  
+  .mb-33 {
+    width: 20px;
+    font-size: 8px;
+    margin-top: -10px;
+  }
+  .positions1 {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .positions1 .top1 {
+    margin-bottom: 70px;
+  }
+  .positions1 .mb-3 {
+    width: 17px;
+    height: 17px;
+    font-size: 8px;
+    margin: 0 16px;
+  }
+}
+@media only screen and (max-width: 1399px) {
+  .stadium .boxes{
+    top:90%
+  }
+}
+@media only screen and (max-width: 1199px) {
+  
+  .stad .img-stad{
+    width:700px
+  }
+  .positions {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .positions .top {
+    margin-bottom: 55px;
+  }
+  .positions .mb-3 {
+    width: 17px;
+    height:17px;
+    font-size: 8px;
+    margin: 0 10px;
+  }
+  
+  .mb-33 {
+    width: 15px;
+    font-size: 8px;
+    margin-top: -10px;
+  }
+  .positions1 {
+    position: absolute;
+    top: 16%;
+    left: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .positions1 .top1 {
+    margin-bottom: 55px;
+  }
+  .positions1 .mb-3 {
+    text-align: left;
+    width: 17px;
+    height: 17px;
+    font-size: 8px;
+    margin: 0 10px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  #imgStad{
+    width:600px;
+  }
+  .stadium .stad .img-stad{
+    width: 600px;
+  }
+  .stadium img{
+    width:800px
+  }
+  .positions {
+    position: absolute;
+    top: 25%;
+    left: 26%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .positions .top {
+    margin-bottom: 20px;
+  }
+  .positions .mb-3 {
+    width: 5px;
+    height:5px;
+    font-size: 8px;
+    margin: 0 8px;
+  }
+  
+  .mb-33 {
+    width: 20px;
+    font-size: 8px;
+    margin-top: -10px;
+  }
+  .positions1 {
+    position: absolute;
+    top: 14%;
+    left: 27%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .positions1 .top1 {
+    margin-bottom: 20px;
+  }
+  .positions1 .mb-3 {
+    width: 5px;
+    height: 5px;
+    font-size: 8px;
+    margin: 0 8px;
+  }
+}
